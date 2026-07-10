@@ -80,7 +80,7 @@ portfolio/
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/safwan-portfolio.git
+git clone https://github.com/safwan447/safwan-portfolio.git
 ```
 
 Navigate into the project
