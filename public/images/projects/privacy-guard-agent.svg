@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img" aria-labelledby="title desc">
+  <title id="title">Privacy Guard Agent placeholder thumbnail</title>
+  <desc id="desc">Minimal dark project thumbnail for Privacy Guard Agent.</desc>
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#312e81"/></linearGradient></defs>
+  <rect width="1280" height="800" fill="url(#g)"/>
+  <rect x="420" y="240" width="440" height="300" rx="34" fill="#151a22" stroke="#60a5fa" stroke-width="6"/>
+  <path d="M520 240v-70c0-70 54-120 120-120s120 50 120 120v70" fill="none" stroke="#60a5fa" stroke-width="16" stroke-linecap="round"/>
+  <rect x="500" y="344" width="220" height="28" rx="14" fill="#60a5fa" opacity=".8"/><rect x="500" y="404" width="280" height="28" rx="14" fill="#9aa4b2" opacity=".35"/>
+  <text x="96" y="132" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="64" font-weight="700">Privacy Guard Agent</text>
+  <text x="96" y="190" fill="#9aa4b2" font-family="Arial, sans-serif" font-size="28">RL / PII Redaction</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img" aria-labelledby="title desc">
+  <title id="title">Certificate Verification System placeholder thumbnail</title>
+  <desc id="desc">Minimal dark project thumbnail for Certificate Verification System.</desc>
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#164e63"/></linearGradient></defs>
+  <rect width="1280" height="800" fill="url(#g)"/>
+  <rect x="390" y="230" width="500" height="330" rx="24" fill="#151a22" stroke="#60a5fa" stroke-width="6"/>
+  <path d="M500 340h280M500 400h200M500 460h260" stroke="#9aa4b2" stroke-width="14" stroke-linecap="round" opacity=".45"/>
+  <path d="m775 472 42 42 90-112" fill="none" stroke="#60a5fa" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="96" y="132" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="56" font-weight="700">Certificate Verification</text>
+  <text x="96" y="190" fill="#9aa4b2" font-family="Arial, sans-serif" font-size="28">Web Application</text>
+</svg>

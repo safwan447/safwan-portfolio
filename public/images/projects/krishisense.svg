@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img" aria-labelledby="title desc">
+  <title id="title">KrishiSense placeholder thumbnail</title>
+  <desc id="desc">Minimal dark project thumbnail for KrishiSense.</desc>
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#064e3b"/></linearGradient></defs>
+  <rect width="1280" height="800" fill="url(#g)"/>
+  <path d="M250 570c180-210 410-240 780-170" fill="none" stroke="#60a5fa" stroke-width="10" stroke-linecap="round" opacity=".75"/>
+  <path d="M640 520c-18-120 40-230 160-300-8 145-55 240-160 300Z" fill="#60a5fa" opacity=".85"/>
+  <path d="M632 518c-94-74-128-188-92-322 92 90 132 190 92 322Z" fill="#9aa4b2" opacity=".38"/>
+  <text x="96" y="132" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="64" font-weight="700">KrishiSense</text>
+  <text x="96" y="190" fill="#9aa4b2" font-family="Arial, sans-serif" font-size="28">TinyML / Edge Agriculture</text>
+</svg>
