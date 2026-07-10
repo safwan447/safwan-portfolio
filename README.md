@@ -1,4 +1,4 @@
-# Mohammed Safwan — Personal Portfolio
+# Mohammed Safwan - Personal Portfolio
 
 A modern, minimal, and responsive personal portfolio built with **Next.js**, **TypeScript**, and **Tailwind CSS**. Designed to showcase my projects, experience, skills, achievements, and certifications while providing an elegant user experience with subtle animations.
 
@@ -6,7 +6,7 @@ A modern, minimal, and responsive personal portfolio built with **Next.js**, **T
 
 ---
 
-## 🌐 Live Website
+## Live Website
 
 **Portfolio:** https://safwan-portfolio-89lczzfci-safwan447s-projects.vercel.app
 
@@ -28,7 +28,7 @@ A modern, minimal, and responsive personal portfolio built with **Next.js**, **T
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -75,7 +75,7 @@ portfolio/
 
 ---
 
-## 🚀 Running Locally
+## Running Locally
 
 Clone the repository
 
@@ -109,7 +109,7 @@ http://localhost:3000
 
 ---
 
-## 📦 Build for Production
+## Build for Production
 
 ```bash
 npm run build
@@ -235,7 +235,7 @@ From here you can update:
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 This portfolio is optimized for **Vercel**.
 
@@ -249,7 +249,7 @@ vercel
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
 - Blog section
 - Project filtering
