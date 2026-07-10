@@ -1,7 +1,8 @@
-import { ArrowRight, ExternalLink, GitBranch } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
+import { GitHubIcon } from "@/components/shared/brand-icons";
 import { Button } from "@/components/ui/button";
 import type { Project } from "@/types/content";
 
@@ -54,7 +55,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
           {project.github ? (
             <Button asChild size="sm" variant="secondary">
               <a href={project.github} target="_blank" rel="noreferrer">
-                <GitBranch className="h-3.5 w-3.5" aria-hidden="true" /> GitHub
+                <GitHubIcon className="h-3.5 w-3.5" /> GitHub
               </a>
             </Button>
           ) : null}

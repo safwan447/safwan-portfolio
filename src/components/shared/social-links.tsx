@@ -1,12 +1,13 @@
-import { BriefcaseBusiness, Code2, GitBranch, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 
+import { GitHubIcon, LeetCodeIcon, LinkedInIcon } from "@/components/shared/brand-icons";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
 const iconMap = {
-  GitHub: GitBranch,
-  LinkedIn: BriefcaseBusiness,
-  LeetCode: Code2,
+  GitHub: GitHubIcon,
+  LinkedIn: LinkedInIcon,
+  LeetCode: LeetCodeIcon,
   Email: Mail,
 };
 
@@ -21,7 +22,7 @@ export function SocialLinks({ className, showLabels = false }: SocialLinksProps)
   return (
     <div className={cn("flex flex-wrap items-center gap-2", className)}>
       {links.map((link) => {
-        const Icon = iconMap[link.label as keyof typeof iconMap] ?? Code2;
+        const Icon = iconMap[link.label as keyof typeof iconMap] ?? Mail;
 
         return (
           <a

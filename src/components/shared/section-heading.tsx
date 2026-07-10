@@ -13,7 +13,7 @@ export function SectionHeading({ eyebrow, title, description, className }: Secti
       {eyebrow ? (
         <p className="mb-3 font-mono text-xs font-medium uppercase text-accent">{eyebrow}</p>
       ) : null}
-      <h2 className="text-balance text-2xl font-semibold tracking-normal text-primary sm:text-3xl">
+      <h2 className="font-heading text-balance text-3xl font-semibold leading-tight tracking-normal text-primary sm:text-4xl">
         {title}
       </h2>
       {description ? <p className="mt-4 text-base leading-7 text-muted">{description}</p> : null}

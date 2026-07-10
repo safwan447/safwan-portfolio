@@ -13,6 +13,9 @@ const config: Config = {
         muted: "var(--text-muted)",
         accent: "var(--accent)",
       },
+      fontFamily: {
+        heading: "var(--font-cormorant)",
+      },
       borderRadius: {
         sm: "8px",
         md: "12px",
