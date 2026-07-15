@@ -45,6 +45,14 @@ export function CertificationsSection() {
                         </a>
                       </Button>
                     ) : null}
+                    {certification.certificateUrl ? (
+                      <Button asChild size="sm" variant="secondary">
+                        <a href={certification.certificateUrl} target="_blank" rel="noreferrer">
+                          <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" /> View
+                          Certificate
+                        </a>
+                      </Button>
+                    ) : null}
                     {certification.image ? (
                       <Dialog>
                         <DialogTrigger asChild>

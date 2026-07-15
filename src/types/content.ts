@@ -44,6 +44,7 @@ export type Certification = {
   issuer: string;
   date: string;
   credentialUrl?: string;
+  certificateUrl?: string;
   image?: string;
 };
 
