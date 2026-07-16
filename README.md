@@ -8,7 +8,7 @@ A modern, minimal, and responsive personal portfolio built with **Next.js**, **T
 
 ## Live Website
 
-**Portfolio:** safwan-portfolio-taupe.vercel.app
+**Portfolio:** [safwan-portfolio-taupe.vercel.app](https://safwan-portfolio-taupe.vercel.app/)
 
 ---
 
