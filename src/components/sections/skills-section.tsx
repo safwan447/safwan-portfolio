@@ -11,7 +11,7 @@ export function SkillsSection() {
         <SectionHeading
           eyebrow="Skills"
           title="A practical toolkit for building modern products."
-          description="Organized by category so new skills can be added in one data file."
+          description="Core tools I use for web development, AI prototypes, APIs, and deployment."
         />
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {skills.map((group, index) => (

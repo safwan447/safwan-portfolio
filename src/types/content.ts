@@ -7,10 +7,11 @@ export type SocialLink = {
 export type Project = {
   slug: string;
   title: string;
-  description: string;
+  description: string[];
   technologies: string[];
   github?: string;
   live?: string;
+  privateNote?: string;
   image?: string;
   featured: boolean;
   category: string;
@@ -50,7 +51,7 @@ export type Certification = {
 
 export type Achievement = {
   title: string;
-  description: string;
+  description: string[];
   date: string;
   event: string;
   position?: string;

@@ -4,8 +4,11 @@ export const projects: Project[] = [
   {
     slug: "infrasense-ai",
     title: "InfraSense-AI",
-    description:
-      "An AI-powered infrastructure risk prediction platform that helps government agencies identify potential project delays and budget overruns using machine learning.",
+    description: [
+      "Predicts infrastructure project risk levels with Random Forest.",
+      "Exposes scoring through a FastAPI REST API.",
+      "Built for early delay and budget-risk checks.",
+    ],
     technologies: ["Python", "Scikit-learn", "Random Forest", "FastAPI", "Pandas"],
     github: "https://github.com/safwan447/InfraSense-AI",
     image: "/images/projects/infrasense-ai.svg",
@@ -22,18 +25,21 @@ export const projects: Project[] = [
     ],
     caseStudy: {
       problem:
-        "Government infrastructure projects often face delays and budget overruns, making early risk assessment difficult.",
+        "Infrastructure teams need earlier warning signals for delays and budget overruns before projects move too far into execution.",
       approach:
-        "Developed a machine learning model using Random Forest to classify project risk levels and exposed predictions through a FastAPI REST API.",
+        "Trained a Random Forest classifier and wrapped the prediction flow in a FastAPI service so a project record can return a risk category through one API call.",
       outcome:
-        "Created an end-to-end AI solution capable of providing actionable risk insights for infrastructure planning.",
+        "Delivered a working AI backend with 5 core feature areas: risk classification, REST access, real-time scoring, backend integration, and lightweight planning support.",
     },
   },
   {
     slug: "privacy-guard-agent",
     title: "Privacy Guard Agent",
-    description:
-      "An RL-powered privacy protection system that automatically detects and redacts personally identifiable information, built for the Meta OpenEnv Hackathon.",
+    description: [
+      "Detects personally identifiable information in text workflows.",
+      "Redacts sensitive content through an RL-based pipeline.",
+      "Packaged with FastAPI and Docker for reproducible runs.",
+    ],
     technologies: ["Python", "Reinforcement Learning", "FastAPI", "Docker"],
     github: "https://github.com/safwan447/privacy-guard-agent",
     image: "/images/projects/privacy-guard-agent.svg",
@@ -51,18 +57,21 @@ export const projects: Project[] = [
     ],
     caseStudy: {
       problem:
-        "Organizations need automated privacy protection to prevent sensitive user data from being exposed.",
+        "Teams handling user text need a repeatable way to reduce accidental PII exposure before data reaches logs, demos, or downstream tools.",
       approach:
-        "Built a reinforcement learning environment for PII redaction and deployed it as a Dockerized FastAPI service.",
+        "Built a reinforcement learning redaction environment, served inference through FastAPI, and Dockerized the service so the same setup can run across machines.",
       outcome:
-        "Submitted the project to the Meta OpenEnv Hackathon with a fully reproducible deployment pipeline.",
+        "Submitted a reproducible Meta OpenEnv Hackathon project with 6 defined capabilities, including PII detection, redaction, API inference, Docker deployment, logging, and environment setup.",
     },
   },
   {
     slug: "krishisense",
     title: "KrishiSense",
-    description:
-      "An offline-first TinyML and IoT solution that helps smallholder farmers monitor crops and soil conditions using edge AI without requiring internet connectivity.",
+    description: [
+      "Offline-first TinyML and IoT concept for smallholder farmers.",
+      "Processes crop and soil signals on the edge.",
+      "Designed for voice alerts without internet dependency.",
+    ],
     technologies: ["TinyML", "IoT", "Edge AI", "Python"],
     image: "/images/projects/krishisense.svg",
     featured: true,
@@ -79,18 +88,21 @@ export const projects: Project[] = [
     ],
     caseStudy: {
       problem:
-        "Many smallholder farmers lack reliable internet access, limiting the effectiveness of conventional smart farming solutions.",
+        "Many smallholder farmers cannot rely on stable internet access, which limits cloud-only smart farming tools in field conditions.",
       approach:
-        "Designed a TinyML-powered edge device capable of processing agricultural data locally and delivering multilingual voice alerts.",
+        "Designed a solar-powered edge device concept that uses TinyML locally and delivers regional-language voice alerts without sending data to the cloud.",
       outcome:
-        "Selected as an institutional representative for Samsung Solve for Tomorrow 2026 under the AI Living for India theme.",
+        "Built the project direction around 6 core requirements: offline operation, solar power, edge AI, crop monitoring, soil monitoring, and regional-language alerts.",
     },
   },
   {
     slug: "website-time-tracker",
     title: "Website Time Tracker Chrome Extension",
-    description:
-      "A Chrome Extension that tracks time spent on websites in real time, featuring a modern interface and persistent session tracking.",
+    description: [
+      "Tracks website usage in real time.",
+      "Keeps a live hh:mm:ss timer across tab switches.",
+      "Persists sessions with Chrome Storage API.",
+    ],
     technologies: ["JavaScript", "Chrome Extensions API", "HTML5", "CSS3", "Chrome Storage API"],
     image: "/images/projects/time-tracker.svg",
     featured: true,
@@ -106,24 +118,28 @@ export const projects: Project[] = [
     ],
     caseStudy: {
       problem:
-        "Users often underestimate the amount of time spent on distracting websites and lack simple tools to monitor browsing habits.",
+        "Users often lose track of browsing time because standard browser history does not show a live per-site timer.",
       approach:
-        "Built a Chrome Extension using the Chrome Extensions API with persistent storage to accurately track browsing sessions across tabs and browser restarts.",
+        "Built a Chrome Extension with tab activity tracking, a live hh:mm:ss timer, and Chrome Storage API persistence across tab switches.",
       outcome:
-        "Deployed a fully functional extension during a Software Development Internship at Scaler.",
+        "Delivered a working internship project at Scaler with 5 focused capabilities: real-time tracking, tab-switch handling, persistent storage, a lightweight UI, and fast local execution.",
     },
   },
   {
     slug: "certificate-verification-system",
     title: "Certificate Verification System",
-    description:
-      "A web application that enables users to verify certificates instantly through a simple, responsive interface.",
+    description: [
+      "Responsive certificate verification interface.",
+      "Built with HTML, CSS, and JavaScript.",
+      "Focused on fast lookup and mobile use.",
+    ],
     technologies: ["HTML5", "CSS3", "JavaScript"],
     image: "/images/projects/certificate-verification.svg",
     featured: false,
     category: "Web Application",
     year: "2025",
     status: "Completed",
+    privateNote: "Code not publicly available",
     features: [
       "Instant certificate verification",
       "Mobile-first responsive design",
@@ -135,14 +151,18 @@ export const projects: Project[] = [
   {
     slug: "website-support-chatbot",
     title: "Website Support Chatbot",
-    description:
-      "A conversational chatbot integrated into a production website to automate responses to common user queries and improve customer support.",
+    description: [
+      "Website chatbot for common support questions.",
+      "Built with JavaScript, HTML, and CSS.",
+      "Designed for lightweight production integration.",
+    ],
     technologies: ["JavaScript", "HTML5", "CSS3"],
     image: "/images/projects/chatbot.svg",
     featured: false,
     category: "Web Automation",
     year: "2024",
     status: "Completed",
+    privateNote: "Code not publicly available",
     features: [
       "Automated responses",
       "Easy website integration",

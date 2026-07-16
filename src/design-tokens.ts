@@ -1,22 +1,22 @@
 export const designTokens = {
   color: {
     light: {
-      background: "#f7f8fb",
+      background: "#f8fafd",
       surface: "#ffffff",
-      surfaceElevated: "#f3f5f8",
-      border: "#dfe3ea",
-      textPrimary: "#111318",
-      textMuted: "#5f6673",
-      accent: "#3b82f6",
+      surfaceElevated: "#f1f4f9",
+      border: "#dce2ea",
+      textPrimary: "#202124",
+      textMuted: "#5f6368",
+      accent: "#1a73e8",
     },
     dark: {
-      background: "#05070b",
-      surface: "#0d1117",
-      surfaceElevated: "#151a22",
-      border: "#252c37",
-      textPrimary: "#f4f7fb",
-      textMuted: "#9aa4b2",
-      accent: "#60a5fa",
+      background: "#101214",
+      surface: "#171a1f",
+      surfaceElevated: "#20242b",
+      border: "#30343b",
+      textPrimary: "#f1f3f4",
+      textMuted: "#bdc1c6",
+      accent: "#8ab4f8",
     },
   },
   spacing: {
@@ -26,12 +26,12 @@ export const designTokens = {
   radius: {
     sm: "8px",
     md: "12px",
-    lg: "16px",
+    lg: "12px",
   },
   shadow: {
-    resting: "0 1px 2px rgb(0 0 0 / 0.08)",
-    hover: "0 16px 40px rgb(0 0 0 / 0.14)",
-    modal: "0 24px 80px rgb(0 0 0 / 0.35)",
+    resting: "0 1px 2px rgb(60 64 67 / 0.1), 0 1px 3px rgb(60 64 67 / 0.08)",
+    hover: "0 8px 24px rgb(60 64 67 / 0.16)",
+    modal: "0 24px 80px rgb(60 64 67 / 0.28)",
   },
   typography: {
     scale: {

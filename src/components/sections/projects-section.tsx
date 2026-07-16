@@ -12,7 +12,7 @@ export function ProjectsSection() {
         <SectionHeading
           eyebrow="Projects"
           title="Selected work across AI, web, and product engineering."
-          description="Projects are rendered from a data file. Add another object and it appears here automatically."
+          description="A focused set of shipped builds, hackathon projects, and product experiments."
         />
         {projects.length > 0 ? (
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">

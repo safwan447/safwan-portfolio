@@ -22,7 +22,7 @@ export function CertificationsSection() {
         <SectionHeading
           eyebrow="Certifications"
           title="Continuous learning, documented."
-          description="Certificates can include optional credential links and images from a single data file."
+          description="Verified credentials across cloud, architecture, and AI fundamentals."
         />
         {certifications.length > 0 ? (
           <div className="grid gap-4 md:grid-cols-2">

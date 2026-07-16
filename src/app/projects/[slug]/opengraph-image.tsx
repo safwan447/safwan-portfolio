@@ -15,7 +15,7 @@ export default async function Image({ params }: OgProps) {
   const { slug } = await params;
   const project = projects.find((item) => item.slug === slug);
   const title = project?.title ?? siteConfig.displayName;
-  const description = project?.description ?? siteConfig.seo.description;
+  const description = project?.description.join(" ") ?? siteConfig.seo.description;
   const category = project?.category ?? "Portfolio";
 
   return new ImageResponse(

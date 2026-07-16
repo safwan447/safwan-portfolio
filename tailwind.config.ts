@@ -14,12 +14,12 @@ const config: Config = {
         accent: "var(--accent)",
       },
       fontFamily: {
-        heading: "var(--font-cormorant)",
+        heading: "var(--font-roboto)",
       },
       borderRadius: {
         sm: "8px",
         md: "12px",
-        lg: "16px",
+        lg: "12px",
       },
       boxShadow: {
         resting: "var(--shadow-resting)",

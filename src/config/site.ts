@@ -5,10 +5,11 @@ export const siteConfig = {
   displayName: "Safwan",
   tagline: "Building products with clean code and thoughtful design.",
   description:
-    "Computer Science student passionate about software development, AI, and building intuitive web applications.",
+    "Computer Engineering student building AI projects, web apps, and practical software tools.",
   longBio: [
-    "Hi, I'm Safwan, a Computer Science student with a strong interest in software engineering, artificial intelligence, and modern web development. I enjoy turning ideas into polished digital experiences by combining clean code with thoughtful design.",
-    "Outside of academics, I spend my time exploring new technologies, contributing to personal projects, and continuously improving my development skills. My goal is to build impactful products, collaborate with talented people, and grow into a well-rounded software engineer who creates technology that makes a difference.",
+    "3rd-year Computer Engineering student in Bangalore.",
+    "Building across AI, full-stack web development, browser extensions, and practical automation tools.",
+    "Open to software engineering internships, hackathons, and product-focused collaborations.",
   ],
   email: "mohammedsafwan12000@gmail.com",
   location: "Bangalore, India",
@@ -16,8 +17,8 @@ export const siteConfig = {
     "Open to internships, software engineering roles, hackathons, open-source contributions, and collaboration on impactful projects.",
   profileImage: "/images/profile.jpeg",
   resumeUrl: "/resume/Safwan_Resume.pdf",
-  url: "https://personal-portfolio.vercel.app",
-  repositoryName: "personal-portfolio",
+  url: "https://safwan-portfolio-taupe.vercel.app",
+  repositoryName: "safwan-portfolio",
   keywords: [
     "Mohammed Safwan",
     "Safwan",
@@ -32,6 +33,7 @@ export const siteConfig = {
     { label: "Skills", href: "#skills" },
     { label: "Projects", href: "#projects" },
     { label: "Experience", href: "#experience" },
+    { label: "Certifications", href: "#certifications" },
     { label: "Achievements", href: "#achievements" },
     { label: "Contact", href: "#contact" },
   ],
@@ -55,7 +57,7 @@ export const siteConfig = {
   seo: {
     title: "Safwan - Software Developer Portfolio",
     description:
-      "Portfolio of Mohammed Safwan, a Computer Science student building software, AI projects, and modern web applications.",
-    ogImage: "/opengraph-image",
+      "Portfolio of Mohammed Safwan, a Computer Engineering student building software, AI projects, and modern web applications.",
+    ogImage: "https://safwan-portfolio-taupe.vercel.app/opengraph-image",
   },
 };

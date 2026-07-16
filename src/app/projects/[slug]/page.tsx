@@ -30,19 +30,23 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
     return {};
   }
 
+  const description = project.description.join(" ");
+  const imageUrl = `${siteConfig.url}/projects/${project.slug}/opengraph-image`;
+
   return {
     title: project.title,
-    description: project.description,
+    description,
     openGraph: {
       title: `${project.title} - ${siteConfig.displayName}`,
-      description: project.description,
-      images: [{ url: `/projects/${project.slug}/opengraph-image`, width: 1200, height: 630 }],
+      description,
+      url: `${siteConfig.url}/projects/${project.slug}`,
+      images: [{ url: imageUrl, width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
       title: `${project.title} - ${siteConfig.displayName}`,
-      description: project.description,
-      images: [`/projects/${project.slug}/opengraph-image`],
+      description,
+      images: [imageUrl],
     },
   };
 }
@@ -70,10 +74,20 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           <p className="font-mono text-xs uppercase text-accent">
             {project.category} / {project.year}
           </p>
-          <h1 className="font-heading mt-4 text-balance text-5xl font-semibold leading-none text-primary sm:text-6xl">
+          <h1 className="mt-4 text-balance text-3xl font-semibold leading-tight text-primary sm:text-4xl">
             {project.title}
           </h1>
-          <p className="mt-5 max-w-3xl text-lg leading-8 text-muted">{project.description}</p>
+          <ul className="mt-5 max-w-3xl space-y-2 text-base leading-7 text-muted">
+            {project.description.map((item) => (
+              <li key={item} className="flex gap-3">
+                <span
+                  className="mt-3 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"
+                  aria-hidden="true"
+                />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
           <div className="mt-6 flex flex-wrap gap-2">
             {project.technologies.map((technology) => (
               <span
@@ -122,15 +136,15 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         ].map(([title, body]) => (
           <section
             key={title}
-            className="rounded-lg border border-border bg-surface p-6 shadow-resting"
+            className="rounded-lg bg-surface p-6 shadow-resting ring-1 ring-border/70"
           >
-            <h2 className="font-heading text-2xl font-semibold text-primary">{title}</h2>
+            <h2 className="text-xl font-semibold text-primary">{title}</h2>
             <p className="mt-4 text-sm leading-7 text-muted">{body}</p>
           </section>
         ))}
       </div>
-      <section className="mt-8 rounded-lg border border-border bg-surface p-6 shadow-resting">
-        <h2 className="font-heading text-2xl font-semibold text-primary">Features</h2>
+      <section className="mt-8 rounded-lg bg-surface p-6 shadow-resting ring-1 ring-border/70">
+        <h2 className="text-xl font-semibold text-primary">Features</h2>
         <ul className="mt-5 grid gap-3 text-sm text-muted sm:grid-cols-2">
           {project.features.map((feature) => (
             <li key={feature} className="flex gap-3">
